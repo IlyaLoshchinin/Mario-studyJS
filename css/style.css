@@ -1,0 +1,98 @@
+/* font-family: 'ABeeZee', sans-serif; */
+
+
+/* font-family: 'Josefin Slab', serif; */
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+
+h1,
+h2,
+h3 {
+    font-family: 'Josefin Slab', serif;
+    margin: 0px;
+}
+
+body {
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.top {
+    background-color: #04BFF5;
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+}
+
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+
+@media (min-width: 576px) {}
+
+
+/*Small devices (landscape phones, less than 768px)*/
+
+@media (min-width: 768px) {
+    .top {
+        line-height: 70px;
+        height: 70px;
+        font-size: larger;
+    }
+}
+
+
+/*Medium devices (tablets, less than 992px)*/
+
+@media (min-width: 992px) {}
+
+
+/*Large devices (desktops, less than 1200px)*/
+
+@media (min-width: 1200px) {
+    .top {
+        line-height: 100px;
+        font-size: x-large;
+        height: 100px;
+    }
+
+    .middle {}
+
+    #pyramid {
+
+        /*line-height: 0; */
+        padding: 0px 0 10px 0;
+        white-space: nowrap;
+        display: inline;
+    }
+    .block {
+        margin: 1px;
+        height: 20px;
+        width: 20px;
+        display: inline-block;
+        background-color: #B600DD;
+    }
+    .empty-block {
+        margin: 1px;
+        height: 20px;
+        width: 20px;
+        display: inline-block;
+    }
+
+    #combobox {
+        height: 25px;
+        width: 50px;
+        display: inline;
+    }
+
+    .container {
+        display: block;
+        width: 100%;
+        /*padding: 0 15px 0 15px;*/
+    }
+
+
+    option[value="square"] {
+        color: #B600DD;
+    }
+}
